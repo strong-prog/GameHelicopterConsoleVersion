@@ -78,6 +78,8 @@ mkdir ~/GameHelicopter
 cd ~/GameHelicopter
 git clone https://github.com/strong-prog/GameHelicopterConsoleVersion
 cd GameHelicopterConsoleVersion
+python3 -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
 python3 main.py
 ```
@@ -92,3 +94,5 @@ D - вправо
 F - сохранить
 G - загрузить
 ```
+
+![helico](https://github.com/strong-prog/GameHelicopterConsoleVersion/assets/65113517/4b4c8cc9-f6dd-4cf2-bc0e-77e0d750015b)
